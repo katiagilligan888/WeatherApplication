@@ -1,0 +1,57 @@
+
+body {
+    background-color: #66A5AD;
+}
+
+
+h1{
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+   font-size: 2.5em;
+   color: #003B46;
+   font-weight: bold;
+   text-shadow: 1px 1px #003B46;
+}
+
+#container {
+    margin: 0 auto;
+    width: 70%;
+    padding: 2%;
+    background-color: #C4DFE6;
+    height: 22em;
+    text-align: center;
+    border-radius: 10%;
+}
+
+#summary, #temperature, #time, #location{
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+#temperature{
+    font-weight: bold;
+    font-size: 4em;
+    color:#003B46;
+}
+
+#time{
+    padding-bottom: 0.5em;
+}
+
+
+
+button {
+    background-color: #003B46;
+    color: white;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+
+
+

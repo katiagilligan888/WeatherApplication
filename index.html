@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = 'stylesheet' href = 'style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Gugi|Nunito|Titan+One" rel="stylesheet">
+    <title>Local Weather Application</title>
+</head>
+<body>
+<h1>Local Weather Forecast</h1>
+<div id = "container">
+    <div id="location"> </div>
+    <div id = "time"></div>
+    <div class = "weather">
+    <figure class= "icons">
+        <canvas id="icon1" width="128" height="128"></canvas>
+    </figure>
+    <div id = "summary"></div>
+    <div id = 'temperature'></div>
+    </div>
+    
+    <button id = "button">Switch To &deg C</button>
+</div>
+
+<script src = 'app.js'></script>
+<script src="https://darkskyapp.github.io/skycons/skycons.js"></script>
+    
+</body>
+</html>
